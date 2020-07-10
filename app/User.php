@@ -41,4 +41,8 @@ class User extends Model
 
     protected $dates = ['deleted_at'];
 
+    public function article() {
+        
+        return $this->hasMany('App\Article');
+    }
 }

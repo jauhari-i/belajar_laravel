@@ -17,5 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::apiResources([
     'category' => 'API\V1\CategoryController',
-    'user' => 'API\V1\UserController'
+    'user' => 'API\V1\UserController',
+    'article' => 'API\V1\ArticleController'
 ]);
